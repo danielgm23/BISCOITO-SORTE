@@ -7,7 +7,7 @@
 :root {
     font-size: 62.5%;
 }
-.hide {
+div.hide {
     display: none;
 }
 
@@ -18,7 +18,7 @@ body {
     place-items: center;
     height: 100vh;
 }
-.screen1 {
+#screen1 {
  
     padding: 4.8rem 6.4rem;
 
@@ -30,7 +30,10 @@ body {
     height: 43.0rem;
 }
 
-.screen2 {
+#screen1 img {
+    cursor: pointer;
+    }
+#screen2 {
  
     padding: 4.8rem 6.4rem;
 
@@ -41,9 +44,15 @@ body {
     width: 43.0rem;
     height: 55.0rem;
     
+    
 
     
      
+}
+
+#screen2 button {
+    display: grid;
+    align-items: center;
 }
 
 h1 {
@@ -99,8 +108,10 @@ button  {
     background: #FF9500;
 
     border: none;
-    cursor: pointer;
+   
 }
+
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
